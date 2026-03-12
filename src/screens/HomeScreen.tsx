@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-} from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function HomeScreen() {
@@ -11,9 +7,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
         <Text style={styles.title}>Bienvenido a Libreame</Text>
-        <Text style={styles.subtitle}>
-          Aplicación de lectura de contenido
-        </Text>
+        <Text style={styles.subtitle}>Aplicación de lectura de contenido</Text>
       </View>
     </SafeAreaView>
   );
